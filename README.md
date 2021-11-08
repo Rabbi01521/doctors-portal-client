@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Doctors Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Website](https://doctors-portal-ebe9c.web.app/)
 
-## Available Scripts
+### UI ScreenShot :
 
-In the project directory, you can run:
+- Not Available. You can see live site.
 
-### `yarn start`
+### Features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- user can visit all the page through routing .
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- user can login.
 
-### `yarn test`
+- New user can register.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Admin dashboard and user dashboard are different.
 
-### `yarn build`
+- Admin can made a user an admin and also add doctor.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Nested Route used in dashboard.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- JWT token used for secure data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- user can visit all pages but if user is logged in.
 
-### `yarn eject`
+- user can logged in by Github and Google.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- After reloading the page on a private route, the user should not be redirected to the login page.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- if user enter wrong email and password then it show error message.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Once logged in, the user name, logout button should appear on the header which will log out the user once clicked.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- On the my orders page, the logged in user will see only his/her orders. If the user wants, he/she should be able to cancel/delete any order. Ask a confirmation message before deleting or canceling an item.
 
-## Learn More
+- on the Add A New Service, the user will be able to add a brand new service. After adding that service, this service will appear on the home page.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- .env file to hide db user and password and also use .gitignore file
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Click on the Manage All Orders page, the logged in user will see the orders placed by every users.
 
-### Code Splitting
+- i used Environment variable in Client side.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Technology :
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React
+- Material UI
+- Own API (for fetching data)
+- React Router
+- FireBase
+- full Responsive
+- node
+- Firebase JWT Token
+- express
+- mongodb
+- react hook form
