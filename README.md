@@ -30,11 +30,7 @@
 
 - if user enter wrong email and password then it show error message.
 
-- Once logged in, the user name, logout button should appear on the header which will log out the user once clicked.
-
-- On the my orders page, the logged in user will see only his/her orders. If the user wants, he/she should be able to cancel/delete any order. Ask a confirmation message before deleting or canceling an item.
-
-- on the Add A New Service, the user will be able to add a brand new service. After adding that service, this service will appear on the home page.
+- Once logged in, logout button should appear on the header which will log out the user once clicked.
 
 - .env file to hide db user and password and also use .gitignore file
 
